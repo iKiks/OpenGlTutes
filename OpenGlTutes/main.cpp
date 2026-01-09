@@ -29,6 +29,8 @@ int main() {
 		return -1;
 	}
 
+	//Create viewport
 
+	glViewport(0, 0, 800, 600);
 
 }
