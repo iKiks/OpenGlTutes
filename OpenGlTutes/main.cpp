@@ -35,9 +35,16 @@ int main() {
 
 	glViewport(0, 0, 800, 600);
 
+	//Set resizeable screen size callback
+
+	glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
+
 
 	//End code
 	return 0;
 
 }
 
+void framebuffer_size_callback(GLFWwindow* window, int width, int height) {
+	glViewport(0, 0, width, height);
+}
