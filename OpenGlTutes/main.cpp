@@ -33,4 +33,8 @@ int main() {
 
 	glViewport(0, 0, 800, 600);
 
+
+	//End code
+	return 0;
+
 }
