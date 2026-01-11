@@ -137,7 +137,6 @@
   <ItemGroup>
     <ClCompile Include="..\..\..\..\linclude\Src\glad.c" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="stb.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
